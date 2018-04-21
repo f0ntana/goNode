@@ -1,0 +1,33 @@
+{
+    "name": "challenge-01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/f0ntana/goNode.git"
+    },
+    "author": "Felipe Fontana <felipefontanaf@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/f0ntana/goNode/issues"
+    },
+    "homepage": "https://github.com/f0ntana/goNode#readme",
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "nodemon": "^1.17.3",
+        "prettier": "^1.12.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "moment": "^2.22.1",
+        "nunjucks": "^3.1.2"
+    }
+}
